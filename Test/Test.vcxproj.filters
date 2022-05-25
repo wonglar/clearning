@@ -33,5 +33,8 @@
     <ClCompile Include="Demo04.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Demo05.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

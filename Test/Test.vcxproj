@@ -69,6 +69,7 @@
     <ClCompile Include="Demo02.c" />
     <ClCompile Include="Demo03.c" />
     <ClCompile Include="Demo04.c" />
+    <ClCompile Include="Demo05.c" />
     <ClCompile Include="D指针进阶01.c" />
     <ClCompile Include="D数据存储01.c" />
   </ItemGroup>
