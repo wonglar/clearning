@@ -395,6 +395,7 @@ strncpy strncat strncmp
 //	return 0;
 //}
 
+// ÏòÆÁÄ»´òÓ¡Hello World
 //int main()
 //{
 //	printf("Hello World\n");
