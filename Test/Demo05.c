@@ -11,6 +11,8 @@ int main()
 	int len = strlen(arr);
 	printf("len = %d\n", len);
 	printf("arr[3] = %c", arr[3]);
+	
+	printf("%p\n", &arr[0]);
 
 	return 0;
 }
