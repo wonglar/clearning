@@ -13,12 +13,13 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E3A467C8-4B0B-484C-B66E-A379343D0CFC}</ProjectGuid>
     <RootNamespace>Test</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -70,6 +71,7 @@
     <ClCompile Include="Demo03.c" />
     <ClCompile Include="Demo04.c" />
     <ClCompile Include="Demo05.c" />
+    <ClCompile Include="Demo06.c" />
     <ClCompile Include="D指针进阶01.c" />
     <ClCompile Include="D数据存储01.c" />
   </ItemGroup>
