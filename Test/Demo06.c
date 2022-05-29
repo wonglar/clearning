@@ -152,6 +152,79 @@
 
 
 
+/*
+	联合体(共用体)
+	联合体的大小至少是得有能力保存最大的那个成员。
+*/
+// 
+//union Un
+//{
+//	char c;  // 1个字节
+//	int i;	// 4个字节
+//};
+//int main()
+//{
+//	union Un u;
+//	printf("%p\n", &u);			// 005DF758
+//	printf("%p\n", &(u.c));		// 005DF758
+//	printf("%p\n", &(u.i));		// 005DF758
+//	printf("%d\n", sizeof(u));  // 4
+//
+//	return 0;
+//}
+
+
+
+// 判断当前机器的大小端
+//int check_sys()
+//{
+//	union U
+//	{
+//		char c;
+//		int i;
+//	} u;
+//
+//	u.i = 1;
+//
+//	return u.c;
+//}
+//int main()
+//{
+//	int ret = check_sys();
+//
+//	if (ret == 1)
+//	{
+//		printf("小端\n");
+//	}
+//	else
+//	{
+//		printf("大端\n");
+//	}
+//	
+//	return 0;
+//}
+
+
+
+// 联合体大小的计算  联合体大小至少是最大成员的大小，当最大成员大小不是最大对齐数的整数倍的时候，就要对齐到最大对齐数的整数倍
+
+//union Un
+//{
+//	short s[5]; // 10个字节	   2/8--> 2   	
+//	int a; // 4个字节          4/8-->  4   
+//};
+//int main()
+//{
+//	union Un u;
+//	printf("%d\n", sizeof(u));	// 12
+//
+//	return 0;
+//}
+
+
+
+
+
 
 
 
