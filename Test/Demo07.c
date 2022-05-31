@@ -133,3 +133,35 @@ free函数用来释放动态开辟的内存。
 // 使用free释放动态内存中的一部分
 // 对同一块动态开辟空间，多次释放
 // 动态开辟内存忘记释放
+
+
+
+
+
+
+// 动态内存开辟的习题
+
+// 以下代码有什么问题？
+// 返回栈空间地址的问题
+// GetMemory函数中的数组是在栈内存中开辟的，出了函数系统就回收了
+//char* GetMemory(void)
+//{
+//	char p[] = "hello world";
+//	return p;
+//}
+//void Test(void)
+//{
+//	char* str = NULL;
+//	str = GetMemory();
+//	printf(str);
+//}
+//int main()
+//{
+//	Test();
+//	return 0;
+//}
+
+
+
+
+
