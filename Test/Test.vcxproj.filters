@@ -42,7 +42,11 @@
     <ClCompile Include="Demo07.c">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Demo09.c">
+=======
+    <ClCompile Include="Demo08.c">
+>>>>>>> 5af581f314a5e0947a23130c48cf87c24fa51ce9
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
