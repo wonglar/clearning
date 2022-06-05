@@ -42,5 +42,8 @@
     <ClCompile Include="Demo07.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Demo08.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

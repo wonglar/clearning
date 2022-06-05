@@ -1,9 +1,8 @@
-﻿生成启动时间为 2022/5/31 14:18:28。
+﻿生成启动时间为 2022/6/1 16:03:32。
      1>项目“E:\c_project\Demo\Test\Test\Test.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Demo07.c
-         Demo07.c
-     1>e:\c_project\demo\test\test\demo07.c(148): warning C4172: 返回局部变量或临时变量的地址
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Demo08.c
+         Demo08.c
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c_project\Demo\Test\Debug\Test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\c_project\Demo\Test\Debug\Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c_project\Demo\Test\Debug\Test.lib" /MACHINE:X86 Debug\Demo01.obj
          Debug\Demo02.obj
@@ -12,6 +11,7 @@
          Debug\Demo05.obj
          Debug\Demo06.obj
          Debug\Demo07.obj
+         Debug\Demo08.obj
          "Debug\D指针进阶01.obj"
          "Debug\D数据存储01.obj"
          Test.vcxproj -> E:\c_project\Demo\Test\Debug\Test.exe
@@ -19,4 +19,4 @@
 
 生成成功。
 
-已用时间 00:00:00.86
+已用时间 00:00:00.29
